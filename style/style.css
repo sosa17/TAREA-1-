@@ -91,9 +91,18 @@ button {
     padding: 8px 10px;
     border-radius: 3px;
     transition: all 0.3s ease;
-    background-color: cyan;
+    background-color: transparent;
+  }
+  button+button {
+    color:white;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+    background-color: black;
   }
   button:hover {
-    color: cyan;
-    background: red;
+    color: white;
+    background:white;
 }
